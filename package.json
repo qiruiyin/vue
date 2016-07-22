@@ -1,0 +1,51 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "A site template",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiruiyin/template.git"
+  },
+  "keywords": [
+    "gulp",
+    "sass",
+    "bower"
+  ],
+  "author": "qiruiyin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qiruiyin/template/issues"
+  },
+  "homepage": "https://github.com/qiruiyin/template#readme",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cache": "^0.4.2",
+    "gulp-css-spriter": "^0.3.3",
+    "gulp-cssnano": "^2.1.1",
+    "gulp-file-include": "^0.13.7",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rev": "^7.1.0",
+    "gulp-rev-append": "^0.1.6",
+    "gulp-rev-collector": "^1.0.5",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-scss-lint": "^0.3.9",
+    "gulp-scss-lint-stylish": "^1.0.0",
+    "gulp-size": "^2.0.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.2",
+    "gulp-useref": "^3.0.5",
+    "gulp-watch": "^4.3.5",
+    "imagemin-pngquant": "^4.2.0",
+    "jshint-stylish": "^2.1.0",
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^0.8.2"
+  }
+}

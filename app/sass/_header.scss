@@ -1,0 +1,13 @@
+@charset 'utf-8';
+@import  'sandal/core';
+@import  'core/mixins', 'core/functions', 'core/vars';
+
+header {
+	padding: 20px 0;
+	width: 100%;
+	text-align: center;
+}
+
+h1 {
+	color: #3cc51f;
+}
