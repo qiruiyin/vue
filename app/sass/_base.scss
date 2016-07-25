@@ -3,5 +3,10 @@
 @import  'core/mixins', 'core/functions', 'core/vars';
 
 body {
-	background-color: #fbf9fe;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	// background-color: #fbf9fe;
+}
+
+a {
+    text-decoration: none;
 }

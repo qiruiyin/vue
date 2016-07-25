@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+@@include('./part/head.html')
+<title>tab模块</title>
+<body>
+<div class="tabs" id="tabs">
+	<div class="tabs-header">
+		<div class="tabs-title-name" v-bind:class="{ 'active': $index == iscur }" v-for="item in titles" v-on:click="setCur($index)">
+			{{ item.name }}
+		</div>
+	</div>
+	<!-- 此处的v-for改为v-if就和tabs一样了只是更改数据一样的效果，但是性能较差不建议使用
+		为了显示明显和tabs页面的区别，在此添加切换动画,此处动画很简单
+	 -->
+	<div id="tabs-body-{{ $index }}" class="tabs-body" v-show="$index == iscur" v-for="item in contents" transition="aniamted">
+		<dl>
+			<template v-for="msg in contents[$index]">
+				<dt v-on:click="showMsg($index)">{{ msg.title }}</dt>
+				<dd v-bind:class="{ 'show': $index == isShow, 'hide': $index != isShow }">{{ msg.content }}</dd>
+			</template>
+		</dl>
+	</div>
+</div>
+
+@@include('./part/footer.html')
+<!-- build:js js/tabs-module.js -->
+<script src="./js/tabs-module.js"></script>
+<!-- endbuild -->
+</body>
+</html>

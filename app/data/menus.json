@@ -1,0 +1,19 @@
+{
+	"data": [
+		{
+			"name": "tabs",
+			"url": "tabs.html",
+			"desc": "切换内容数据"
+		},
+		{
+			"name": "tabs-module",
+			"url": "tabs-module.html",
+			"desc": "切换内容块"
+		},
+		{
+			"name": "other",
+			"url": "other.html",
+			"desc": "其他"
+		}
+	]
+}

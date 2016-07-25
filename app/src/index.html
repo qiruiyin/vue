@@ -3,12 +3,18 @@
 @@include('./part/head.html')
 <title>首页</title>
 <body>
-<div class="container">
+
+<div class="menu" id="menu">
+	<h2>demo制作</h2>
+	<a href="{{ menu.url }}" v-for="menu in menus">
+		{{ menu.name }}：
+		<span>{{ menu.desc }}</span>
+	</a>
 </div>
 
 @@include('./part/footer.html')
-<!-- build:js js/app.js -->
-<script src="./js/app.js"></script>
+<!-- build:js js/index.js -->
+<script src="./js/index.js"></script>
 <!-- endbuild -->
 </body>
 </html>

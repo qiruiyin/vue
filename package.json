@@ -46,6 +46,7 @@
     "imagemin-pngquant": "^4.2.0",
     "jshint-stylish": "^2.1.0",
     "source-map-loader": "^0.1.5",
-    "ts-loader": "^0.8.2"
+    "ts-loader": "^0.8.2",
+    "webpack": "^1.13.1"
   }
 }
